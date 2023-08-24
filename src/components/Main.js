@@ -11,7 +11,7 @@ function Main() {
   async function getJoke() {
     const response = await fetch(API_URL);
     const data = await response.json();
-    setBookmarked((bookmarked) => !bookmarked);
+    setBookmarked(false);
     setLoader(false);
     setJoke(data);
   }
