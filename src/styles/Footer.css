@@ -1,0 +1,11 @@
+#footer {
+  box-sizing: border-box;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer i {
+    margin-left: 0.25rem;
+}
